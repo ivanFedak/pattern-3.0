@@ -1,7 +1,7 @@
 export const server = (done)=>{
     app.plugins.browsersync.init({
         server: {
-            baseDir: `${app.path.buid.html}`
+            baseDir: `${app.path.build.html}`
         },
         notify: false,
         port: 4000

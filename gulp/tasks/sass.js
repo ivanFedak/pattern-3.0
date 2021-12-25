@@ -34,11 +34,11 @@ export const sass = ()=>{
             overrideBrowserslist: ["last 3 versions"],
             cascade: true
         }))
-        .pipe(app.gulp.dest(app.path.buid.css))
+        .pipe(app.gulp.dest(app.path.build.css))
         .pipe(cleanCss())
         .pipe(rename({
             extname: ".min.css"
         }))
-        .pipe(app.gulp.dest(app.path.buid.css))
+        .pipe(app.gulp.dest(app.path.build.css))
         .pipe(app.plugins.browsersync.stream());
 };
