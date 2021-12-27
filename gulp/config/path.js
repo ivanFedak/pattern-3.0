@@ -12,11 +12,12 @@ export const path = {
         css: `${buildFolder}/css/`,
         html: `${buildFolder}/`,
         images: `${buildFolder}/img/`,
+        fonts: `${buildFolder}/fonts/`,
         files: `${buildFolder}/files/`,
     },
     src:{
         js: `${srcFolder}/js/app.js`,
-        images: `${srcFolder}/img/**/*.{jpg,jpeg,png,gif,ico,webp}`, 
+        images: `${srcFolder}/img/**/* .{jpg,jpeg,png,gif,ico,webp}`, 
         svg: `${srcFolder}/img/**/*.svg`,
         sass: `${srcFolder}/sass/style.sass`, 
         html: `${srcFolder}/*.html`,
